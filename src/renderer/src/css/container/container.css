@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    width: 200;
+    height: 800px;
+    float: left;
+    position: relative;
+    max-width: 50%;
+    overflow-x: hidden;
+    padding-top: 5px;
+}
+
+.drag-handle {
+    cursor: col-resize;
+    width: 3px;
+    background-color: #cfd1d2;
+}
+
+.right {
+    padding-top: 5x;
+    overflow-y: scroll;
+    max-height: 95%;
+}
